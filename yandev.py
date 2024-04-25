@@ -1,4 +1,4 @@
-def skim(string):
+def skimjson(string):
     string = string.replace("☆","")
     string = string.replace("{","")
     string = string.replace("}","")

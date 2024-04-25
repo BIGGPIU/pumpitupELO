@@ -1,7 +1,7 @@
 import requests
 import os
 from jsonpath_ng import parse
-from yandev import skim
+from yandev import skimjson
 KEY = "710a11f3-2ec6-48eb-9d51-28116672d435"
 plates = ["Ultimate Game","Perfect game","Fair Game"]#I'm bored I'll do the rest later.
 try:
@@ -36,7 +36,7 @@ def writetxt(string):
     #hold = hold.replace("{","")
     #hold = hold.replace("}","") # I cant do ts anymore, actually im going to try to do this with a list 
     #hold = hold.replace(chars,"") # I am going to kill myself
-    hold2 = skim(hold)
+    hold2 = skimjson(hold)
     f = open("temp.txt","w")
     f = f.write(hold2)
 
