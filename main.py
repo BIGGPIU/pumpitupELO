@@ -1,6 +1,5 @@
 import requests
 import os
-from jsonpath_ng import parse
 from yandev import skimjson
 KEY = "710a11f3-2ec6-48eb-9d51-28116672d435"
 plates = ["Ultimate Game","Perfect game","Fair Game"]#I'm bored I'll do the rest later.
