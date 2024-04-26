@@ -19,14 +19,20 @@ from selenium.webdriver.support import expected_conditions as EC
 
 driver = webdriver.Firefox()
 
-driver.implicitly_wait(10)
+
 
 driver.get("https://piuscores.arroweclip.se/TierLists?Difficulty=18&ChartType=Single") #this is a test I am just committing this so I can work on it between computers.
+driver.implicitly_wait(10)
 element = WebDriverWait(driver,10).until(
-    EC.presence_of_element_located((By.CLASS_NAME,"mud-main-content"))
+    EC.presence_of_element_located((By.CSS_SELECTOR,"div.mud-grid:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1)"))
 )
-if element.text != (""):
+if element != (""):
     htmlsource = driver.page_source
     htmlsource = htmlsource.replace(">",">\n")
+    htmlsource = htmlsource.replace("<!--!-->","\n")
+    f = open("tierlistinfo.txt","w")
+    hold = htmlsource.replace("\U0001f5d9","")
+    f = f.write(hold)
+    print (htmlsource)
 
 print (element.text)
