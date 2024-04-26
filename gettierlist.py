@@ -27,6 +27,6 @@ element = WebDriverWait(driver,10).until(
 )
 if element.text != (""):
     htmlsource = driver.page_source
-    print (htmlsource)
+    htmlsource = htmlsource.replace(">",">\n")
 
 print (element.text)
