@@ -36,7 +36,7 @@ def Find(string):
     url = re.findall(regex, string)
     return [x[0] for x in url]
 
-def main():
+def getTL(DIFF,MODE):
     ONELEVELOVER=[]
     VERYHARD=[]
     HARD=[]
@@ -44,7 +44,7 @@ def main():
     EASY=[]
     NR=[]#NR stands for not rated
     driver = webdriver.Firefox()
-    driver.get("https://piuscores.arroweclip.se/TierLists?Difficulty=18&ChartType=Single") #this is a test I am just committing this so I can work on it between computers.
+    driver.get(f"https://piuscores.arroweclip.se/TierLists?Difficulty={DIFF}&ChartType={MODE}") #this is a test I am just committing this so I can work on it between computers.
     driver.implicitly_wait(10)
     element = WebDriverWait(driver,10).until(
         EC.presence_of_element_located((By.CSS_SELECTOR,"div.mud-grid:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1)"))
@@ -71,7 +71,7 @@ def main():
             except:
                 break
         f = open("tierlistinfo.txt","r")
-        print (piulinks)
+        #print (piulinks)
         while True:
             y+=1
             line = f.readline()
@@ -99,12 +99,12 @@ def main():
                     NR = NR + [hold3]
 
             if not line:
-                print (f"\n{ONELEVELOVER}\n")
-                print (f"\n{VERYHARD}\n")
-                print (f"\n{HARD}\n")
-                print (f"\n{MEDIUM}\n")
-                print (f"\n{EASY}\n")
-                print (f"\n{NR}\n") 
+                #print (f"\n{ONELEVELOVER}\n")
+                #print (f"\n{VERYHARD}\n")
+                #print (f"\n{HARD}\n")
+                #print (f"\n{MEDIUM}\n")
+                #print (f"\n{EASY}\n")
+                #print (f"\n{NR}\n") 
                 break
             #print (f"Line {y} {line}")
     return ONELEVELOVER,VERYHARD,HARD,MEDIUM,EASY,NR
