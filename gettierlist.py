@@ -6,7 +6,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import re
-
+ONELEVELOVER=[]
+VERYHARD=[]
+HARD=[]
+MEDIUM=[]
+EASY=[]
+NR=[]#NR stands for not rated
 #def tierlist(level,VER):
 #    print ("access")
 #    response = requests.get(f"https://piuscores.arroweclip.se/TierLists?Difficulty=18&ChartType=Singles")
@@ -39,13 +44,15 @@ element = WebDriverWait(driver,10).until(
 if element != (""):
     x=0
     piulinks = []
+    y = 0
     htmlsource = driver.page_source
     htmlsource = htmlsource.replace(">",">\n")
     htmlsource = htmlsource.replace("<!--!-->","\n")
     f = open("tierlistinfo.txt","w")
     hold = htmlsource.replace("\U0001f5d9","")
     hold2 = Find(hold)
-    f = f.write(f"{hold} \n \n {hold2}")
+    f.write(f"{hold} \n \n {hold2}")
+    f.close
     while True:
         try:
             if "piuimages" in hold2[x]:
@@ -55,8 +62,29 @@ if element != (""):
                 x+=1
         except:
             break
-
-    print (htmlsource)
+    f = open("tierlistinfo.txt","r")
     print (piulinks)
+    while True:
+        y+=1
+        line = f.readline()
+        #print (line)
+        hold3 = Find(line)
+        hold3 = str(hold3)
+        hold3 = hold3.replace("[]","")
+        if  hold3 != "":
+            if y >= 1765 and 1864 >= y:
+                ONELEVELOVER = ONELEVELOVER + [hold3]
+                y+=1
+        if not line:
+            print (ONELEVELOVER)
+            break
+        #print (f"Line {y} {line}")
+
+
+
+                    
+
+        
+
 
 print (element.text)
