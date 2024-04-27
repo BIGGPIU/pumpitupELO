@@ -4,7 +4,7 @@ modes = ["Single","Double"]
 class DIFF:
     hold2 = ["OL","VH","H","M","E","NR"]
     def __init__(self,x): #overleveled,veryhard,hard,medium,easy,notrated
-        if x != 27:
+        if x <= 26:
             hold = getTL(x,modes[0])
             hold2 = getTL(x,modes[1])
             self.OL = str(hold[0]) + str(hold2[0])
@@ -14,6 +14,14 @@ class DIFF:
             self.E = str(hold[4]) + str(hold2[4])
             self.NR = str(hold[5]) + str(hold2[5])
         if x == 28:
+            hold2 = getTL(x,modes[1])
+            self.OL = hold2[0]
+            self.VH = hold2[1]
+            self.H = hold2[2]
+            self.M = hold2[3]
+            self.E = hold2[4]
+            self.NR = hold2[5]
+        if x == 27:
             hold2 = getTL(x,modes[1])
             self.OL = hold2[0]
             self.VH = hold2[1]
