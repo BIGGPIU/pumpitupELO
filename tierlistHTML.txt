@@ -316,15 +316,11 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
 <div class="mud-popover-provider">
 
 
-<div id="popovercontent-f78cde8d-6954-4bc9-b541-c56e8646eca8" data-ticks="0" class="mud-popover mud-popover-top-center mud-popover-anchor-top-center mud-popover-overflow-flip-onopen mud-popover-relative-width mud-paper mud-elevation-8 overflow-y-auto" style="transition-duration:251ms;transition-delay:0ms;max-height:300px;">
+<div id="popovercontent-13bb9bee-ba61-4a4f-a475-d49c10e6c331" data-ticks="0" class="mud-popover mud-popover-top-center mud-popover-anchor-top-center mud-popover-overflow-flip-onopen mud-popover-relative-width mud-paper mud-elevation-8 overflow-y-auto" style="transition-duration:251ms;transition-delay:0ms;max-height:300px;">
 </div>
 
 
-<div id="popovercontent-6ca66bee-5622-4638-aae3-5d2faf064a82" data-ticks="0" class="mud-popover mud-popover-top-center mud-popover-anchor-bottom-center mud-popover-overflow-flip-onopen mud-popover-relative-width mud-paper mud-elevation-8 overflow-y-auto" style="transition-duration:251ms;transition-delay:0ms;max-height:300px;">
-</div>
-
-
-<div id="popovercontent-d8ca3585-8b7d-4079-9bd1-157381f028a9" data-ticks="0" class="mud-popover mud-popover-top-center mud-popover-anchor-bottom-center mud-popover-overflow-flip-onopen mud-popover-relative-width mud-paper mud-elevation-8 overflow-y-auto" style="transition-duration:251ms;transition-delay:0ms;max-height:300px;">
+<div id="popovercontent-f0a62e76-0ab3-401a-9505-b5afec96779b" data-ticks="0" class="mud-popover mud-popover-top-center mud-popover-anchor-bottom-center mud-popover-overflow-flip-onopen mud-popover-relative-width mud-paper mud-elevation-8 overflow-y-auto" style="transition-duration:251ms;transition-delay:0ms;max-height:300px;">
 </div>
 </div>
 
@@ -362,7 +358,7 @@ html, body * {scrollbar-color: #c4c4c4 transparent;scrollbar-width: thin;}
 
 
 
-<button type="button" class="mud-button-root mud-icon-button mud-inherit-text hover:mud-inherit-hover mud-ripple mud-ripple-icon mud-icon-button-edge-start" _bl_26eef043-1577-45b4-9f7a-4834b2bce912="">
+<button type="button" class="mud-button-root mud-icon-button mud-inherit-text hover:mud-inherit-hover mud-ripple mud-ripple-icon mud-icon-button-edge-start" _bl_366527b6-b80f-43de-9321-7e8976175583="">
 <span class="mud-icon-button-label">
 
 
@@ -396,7 +392,7 @@ PIU Scores</h6>
 
 
 
-<a type="button" href="/Login" class="mud-button-root mud-icon-button mud-inherit-text hover:mud-inherit-hover mud-ripple mud-ripple-icon mud-icon-button-edge-start" _bl_66d6598d-08e4-42e5-80f0-6d9bf1355008="">
+<a type="button" href="/Login" class="mud-button-root mud-icon-button mud-inherit-text hover:mud-inherit-hover mud-ripple mud-ripple-icon mud-icon-button-edge-start" _bl_9c0d53b4-7c6d-4aa8-8e19-9f5e816f6666="">
 <span class="mud-icon-button-label">
 
 
@@ -426,7 +422,7 @@ PIU Scores</h6>
     
 
 <aside class="mud-drawer mud-drawer-fixed mud-drawer-pos-left mud-drawer--closed mud-drawer--initial mud-drawer-md mud-drawer-clipped-never mud-elevation-1 mud-drawer-temporary" style="">
-<div class="mud-drawer-content" _bl_64847c7b-b0b8-48c0-9018-3bbbec23a90f="">
+<div class="mud-drawer-content" _bl_9e4e18bb-afff-461e-95fd-b25de4e6b4a6="">
 
 
 
@@ -559,7 +555,7 @@ Progress</div>
     
 
 <div class="mud-collapse-container mud-navgroup-collapse" style="">
-<div class="mud-collapse-wrapper" _bl_64d60fe3-1c13-453a-81ec-9f24b2728161="">
+<div class="mud-collapse-wrapper" _bl_fed753f7-2ca9-4aee-967a-e22d093d6300="">
 <div class="mud-collapse-wrapper-inner">
 
 
@@ -637,7 +633,7 @@ Tools</div>
     
 
 <div class="mud-collapse-container mud-navgroup-collapse" style="">
-<div class="mud-collapse-wrapper" _bl_aea0e088-7748-4eae-99ff-f2c3fb477894="">
+<div class="mud-collapse-wrapper" _bl_303e5f31-e1b6-49b2-b2e3-ebcd35fc6e98="">
 <div class="mud-collapse-wrapper-inner">
 
 
@@ -876,7 +872,7 @@ Tournaments</div>
     
 
 <div class="mud-collapse-container mud-navgroup-collapse" style="">
-<div class="mud-collapse-wrapper" _bl_2bed7d0d-fd61-48d9-90fd-59723ebcdb3e="">
+<div class="mud-collapse-wrapper" _bl_d496d4c0-0ac0-45a5-973c-7f7ecf29cf6f="">
 <div class="mud-collapse-wrapper-inner">
 
 
@@ -1041,7 +1037,7 @@ Mix (Phoenix)</div>
     
 
 <div class="mud-collapse-container mud-navgroup-collapse" style="">
-<div class="mud-collapse-wrapper" _bl_60ff02de-a7ba-48a5-914c-3162e39a376f="">
+<div class="mud-collapse-wrapper" _bl_f38159c8-349a-45da-8b91-b3c3abbf7ecb="">
 <div class="mud-collapse-wrapper-inner">
 
 
@@ -1108,7 +1104,7 @@ Phoenix</div>
 
 
 
-<div class="mud-select" id="select_cd2b09ce">
+<div class="mud-select" id="select_fcedeaae">
 
 
 <div class="mud-input-control mud-select">
@@ -1116,8 +1112,8 @@ Phoenix</div>
 
 
 <div class="mud-input mud-input-text mud-input-adorned-end mud-input-underline mud-shrink mud-select-input">
-<input class="mud-input-slot mud-input-root mud-input-root-text mud-input-root-adorned-end mud-select-input" type="hidden" readonly="" inputmode="text" maxlength="524288" aria-invalid="false" _bl_5fe39fb7-52e2-4142-9b89-972e452b520c="" value="Difficulty">
-<div class="mud-input-slot mud-input-root mud-input-root-text mud-input-root-adorned-end mud-select-input" style="display:inline" tabindex="0" _bl_70f91ab3-c022-4aae-917d-5d07b7d3e562="">
+<input class="mud-input-slot mud-input-root mud-input-root-text mud-input-root-adorned-end mud-select-input" type="hidden" readonly="" inputmode="text" maxlength="524288" aria-invalid="false" _bl_3c3c2c44-c783-42db-b99d-b27cecb4b12f="" value="Difficulty">
+<div class="mud-input-slot mud-input-root mud-input-root-text mud-input-root-adorned-end mud-select-input" style="display:inline" tabindex="0" _bl_19959e1b-e77b-45dc-a1bd-24be8d2e1f7b="">
 Stage Break</div>
 
 
@@ -1141,11 +1137,11 @@ Stage Break</div>
 
 				
 
-<div id="popover-f78cde8d-6954-4bc9-b541-c56e8646eca8" class="mud-popover-cascading-value">
+<div id="popover-13bb9bee-ba61-4a4f-a475-d49c10e6c331" class="mud-popover-cascading-value">
 </div>
 
 
-<label class="mud-input-label mud-input-label-animated mud-input-label-text mud-input-label-inputcontrol" for="mudinput-4c978364-1309-453c-902a-e5daf26fcf0c">
+<label class="mud-input-label mud-input-label-animated mud-input-label-text mud-input-label-inputcontrol" for="mudinput-f5e91b46-bdc2-4345-bf27-70e5c2ab19ac">
 Tier Lists</label>
 </div>
 </div>
@@ -1187,20 +1183,20 @@ Tier Lists</label>
 
 
 
-<div id="numericField_d0650862" class="mud-input-control mud-input-input-control mud-input-number-control mud-input-nospin">
+<div id="numericField_5f3b53d9" class="mud-input-control mud-input-input-control mud-input-number-control mud-input-nospin">
 <div class="mud-input-control-input-container">
 
 
 
 
 <div class="mud-input mud-input-text mud-input-underline mud-shrink">
-<input class="mud-input-slot mud-input-root mud-input-root-text" min="1" max="28" type="text" inputmode="numeric" pattern="[0-9,.\-]*" maxlength="524288" aria-invalid="false" _bl_dbebd504-dd9d-410c-9d1d-83aa672946f0="">
-<div class="mud-input-slot mud-input-root mud-input-root-text" style="display:none" tabindex="-1" _bl_907900a8-64b5-4b54-935d-b7ddcc0b3961="">
+<input class="mud-input-slot mud-input-root mud-input-root-text" min="1" max="28" type="text" inputmode="numeric" pattern="[0-9,.\-]*" maxlength="524288" aria-invalid="false" _bl_e07c4821-2e90-44db-9e0a-a140ffffedfd="">
+<div class="mud-input-slot mud-input-root mud-input-root-text" style="display:none" tabindex="-1" _bl_e1bfc94e-370a-4f71-a1f1-e726f1867053="">
 </div>
 </div>
 
 
-<label class="mud-input-label mud-input-label-animated mud-input-label-text mud-input-label-inputcontrol" for="mudinput-295d929f-8623-46f7-9b3f-65bcdbad772a">
+<label class="mud-input-label mud-input-label-animated mud-input-label-text mud-input-label-inputcontrol" for="mudinput-c64568df-b815-46bf-a077-9a1faa86dac9">
 Difficulty Level</label>
 </div>
 </div>
@@ -1226,10 +1222,10 @@ Difficulty Level</label>
 <div role="radiogroup" class="mud-radio-group">
 
 
-<label class="mud-radio mud-radio-content-placement-end" id="radiod86e2a80">
+<label class="mud-radio mud-radio-content-placement-end" id="radioc1a62b1c">
 <span tabindex="0" class="mud-button-root mud-icon-button mud-ripple mud-ripple-radio mud-primary-text hover:mud-primary-hover">
 <span class="mud-radio-button">
-<input tabindex="-1" aria-checked="false" aria-disabled="false" role="radio" type="radio" class="mud-radio-input" name="34fcfe15-5979-46ac-913d-7d3f90768698">
+<input tabindex="-1" aria-checked="false" aria-disabled="false" role="radio" type="radio" class="mud-radio-input" name="1d6efb2a-1a6c-4c50-b3b9-7e96ca536603">
 
 
 
@@ -1260,10 +1256,10 @@ Singles</span>
 
             
 
-<label class="mud-radio mud-radio-content-placement-end" id="radio3e5c1dc5">
+<label class="mud-radio mud-radio-content-placement-end" id="radioce14000d">
 <span tabindex="0" class="mud-button-root mud-icon-button mud-ripple mud-ripple-radio mud-primary-text hover:mud-primary-hover mud-checked">
 <span class="mud-radio-button">
-<input tabindex="-1" aria-checked="true" aria-disabled="false" role="radio" type="radio" class="mud-radio-input" name="34fcfe15-5979-46ac-913d-7d3f90768698">
+<input tabindex="-1" aria-checked="true" aria-disabled="false" role="radio" type="radio" class="mud-radio-input" name="1d6efb2a-1a6c-4c50-b3b9-7e96ca536603">
 
 
 
@@ -1294,10 +1290,10 @@ Doubles</span>
 
             
 
-<label class="mud-radio mud-radio-content-placement-end" id="radioe09994b4">
+<label class="mud-radio mud-radio-content-placement-end" id="radiofad9e66d">
 <span tabindex="0" class="mud-button-root mud-icon-button mud-ripple mud-ripple-radio mud-primary-text hover:mud-primary-hover">
 <span class="mud-radio-button">
-<input tabindex="-1" aria-checked="false" aria-disabled="false" role="radio" type="radio" class="mud-radio-input" name="34fcfe15-5979-46ac-913d-7d3f90768698">
+<input tabindex="-1" aria-checked="false" aria-disabled="false" role="radio" type="radio" class="mud-radio-input" name="1d6efb2a-1a6c-4c50-b3b9-7e96ca536603">
 
 
 
@@ -1332,193 +1328,6 @@ CoOp</span>
 
     
 
-
-
-<div class="mud-grid-item mud-grid-item-sm-3 mud-grid-item-lg-2">
-
-
-
-
-<div class="mud-input-control mud-input-control-boolean-input">
-<div class="mud-input-control-input-container">
-<label class="mud-checkbox" id="checkbox8d006864">
-<span tabindex="0" class="mud-button-root mud-icon-button mud-default-text hover:mud-default-hover mud-ripple mud-ripple-checkbox">
-<input tabindex="-1" type="checkbox" class="mud-checkbox-input">
-
-
-
-                
-
-<svg class="mud-icon-root mud-svg-icon mud-icon-size-medium" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
-
-
-<path d="M0 0h24v24H0z" fill="none">
-</path>
-<path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z">
-</path>
-</svg>
-</span>
-
-
-<p class="mud-typography mud-typography-body1">
-Arcade</p>
-</label>
-</div>
-</div>
-</div>
-
-
-<div class="mud-grid-item mud-grid-item-sm-3 mud-grid-item-lg-2">
-
-
-
-
-<div class="mud-input-control mud-input-control-boolean-input">
-<div class="mud-input-control-input-container">
-<label class="mud-checkbox" id="checkbox499b7d7d">
-<span tabindex="0" class="mud-button-root mud-icon-button mud-default-text hover:mud-default-hover mud-ripple mud-ripple-checkbox">
-<input tabindex="-1" type="checkbox" class="mud-checkbox-input">
-
-
-
-                
-
-<svg class="mud-icon-root mud-svg-icon mud-icon-size-medium" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
-
-
-<path d="M0 0h24v24H0z" fill="none">
-</path>
-<path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z">
-</path>
-</svg>
-</span>
-
-
-<p class="mud-typography mud-typography-body1">
-ShortCut</p>
-</label>
-</div>
-</div>
-</div>
-
-
-<div class="mud-grid-item mud-grid-item-sm-3 mud-grid-item-lg-2">
-
-
-
-
-<div class="mud-input-control mud-input-control-boolean-input">
-<div class="mud-input-control-input-container">
-<label class="mud-checkbox" id="checkbox7ec84ba9">
-<span tabindex="0" class="mud-button-root mud-icon-button mud-default-text hover:mud-default-hover mud-ripple mud-ripple-checkbox">
-<input tabindex="-1" type="checkbox" class="mud-checkbox-input">
-
-
-
-                
-
-<svg class="mud-icon-root mud-svg-icon mud-icon-size-medium" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
-
-
-<path d="M0 0h24v24H0z" fill="none">
-</path>
-<path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z">
-</path>
-</svg>
-</span>
-
-
-<p class="mud-typography mud-typography-body1">
-FullSong</p>
-</label>
-</div>
-</div>
-</div>
-
-
-<div class="mud-grid-item mud-grid-item-sm-3 mud-grid-item-lg-2">
-
-
-
-
-<div class="mud-input-control mud-input-control-boolean-input">
-<div class="mud-input-control-input-container">
-<label class="mud-checkbox" id="checkboxd9251f33">
-<span tabindex="0" class="mud-button-root mud-icon-button mud-default-text hover:mud-default-hover mud-ripple mud-ripple-checkbox">
-<input tabindex="-1" type="checkbox" class="mud-checkbox-input">
-
-
-
-                
-
-<svg class="mud-icon-root mud-svg-icon mud-icon-size-medium" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
-
-
-<path d="M0 0h24v24H0z" fill="none">
-</path>
-<path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z">
-</path>
-</svg>
-</span>
-
-
-<p class="mud-typography mud-typography-body1">
-Remix</p>
-</label>
-</div>
-</div>
-</div>
-
-
-<div class="mud-grid-item mud-grid-item-sm-4">
-
-
-
-
-<div class="mud-select mud-autocomplete">
-
-
-<div class="mud-input-control mud-select">
-<div class="mud-input-control-input-container">
-
-
-<div class="mud-input mud-input-text mud-input-adorned-end mud-input-underline mud-select-input">
-<input class="mud-input-slot mud-input-root mud-input-root-text mud-input-root-adorned-end mud-select-input" autocomplete="mud-disabled-f7fe9e98-37a4-4bfa-9eb6-da350130c4fa" type="text" inputmode="text" maxlength="524288" aria-invalid="false" _bl_85366940-2e7b-4dc1-8920-8d461cf3a25d="">
-<div class="mud-input-slot mud-input-root mud-input-root-text mud-input-root-adorned-end mud-select-input" style="display:none" tabindex="-1" _bl_831e2939-5990-4b93-b199-a6596aae9cae="">
-</div>
-
-
-<div class="mud-input-adornment mud-input-adornment-end mud-select-input">
-
-
-<svg aria-label="Icon" tabindex="-1" class="mud-icon-root mud-icon-default mud-svg-icon mud-icon-size-medium" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
-
-
-<path d="M0 0h24v24H0z" fill="none">
-</path>
-<path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
-</path>
-</svg>
-</div>
-</div>
-
-
-<div id="popover-d8ca3585-8b7d-4079-9bd1-157381f028a9" class="mud-popover-cascading-value">
-</div>
-
-
-<label class="mud-input-label mud-input-label-animated mud-input-label-text mud-input-label-inputcontrol" for="mudinput-0222ee0e-5a8b-405d-b51b-9502b9650a51">
-Song Name</label>
-</div>
-</div>
-</div>
-
-
-
-
-
-
-</div>
 </div>
 
 
@@ -1531,7 +1340,7 @@ Song Name</label>
 
 
 <aside id="SettingsDrawer" class="mud-drawer mud-drawer-fixed mud-drawer-pos-right mud-drawer--closed mud-drawer--initial mud-drawer-md mud-drawer-clipped-never mud-elevation-1 mud-drawer-temporary" style="">
-<div class="mud-drawer-content" _bl_25e43a59-9de6-474e-80d9-726ffb086529="">
+<div class="mud-drawer-content" _bl_c51fade1-aa04-4beb-a6d5-e797d075933f="">
 
 
 
@@ -1548,7 +1357,7 @@ Song Name</label>
 
 <div class="mud-input-control mud-input-control-boolean-input">
 <div class="mud-input-control-input-container">
-<label class="mud-checkbox" id="checkbox37ab35d4">
+<label class="mud-checkbox" id="checkbox19c3ee62">
 <span tabindex="0" class="mud-button-root mud-icon-button mud-default-text hover:mud-default-hover mud-ripple mud-ripple-checkbox">
 <input tabindex="-1" type="checkbox" class="mud-checkbox-input">
 
@@ -1582,7 +1391,7 @@ Arcade</p>
 
 <div class="mud-input-control mud-input-control-boolean-input">
 <div class="mud-input-control-input-container">
-<label class="mud-checkbox" id="checkbox4ed0bac0">
+<label class="mud-checkbox" id="checkbox1bb0e2e6">
 <span tabindex="0" class="mud-button-root mud-icon-button mud-default-text hover:mud-default-hover mud-ripple mud-ripple-checkbox">
 <input tabindex="-1" type="checkbox" class="mud-checkbox-input">
 
@@ -1616,7 +1425,7 @@ ShortCut</p>
 
 <div class="mud-input-control mud-input-control-boolean-input">
 <div class="mud-input-control-input-container">
-<label class="mud-checkbox" id="checkboxf9a909f1">
+<label class="mud-checkbox" id="checkboxa4f32318">
 <span tabindex="0" class="mud-button-root mud-icon-button mud-default-text hover:mud-default-hover mud-ripple mud-ripple-checkbox">
 <input tabindex="-1" type="checkbox" class="mud-checkbox-input">
 
@@ -1650,7 +1459,7 @@ FullSong</p>
 
 <div class="mud-input-control mud-input-control-boolean-input">
 <div class="mud-input-control-input-container">
-<label class="mud-checkbox" id="checkbox6acc12c0">
+<label class="mud-checkbox" id="checkbox8e1e90de">
 <span tabindex="0" class="mud-button-root mud-icon-button mud-default-text hover:mud-default-hover mud-ripple mud-ripple-checkbox">
 <input tabindex="-1" type="checkbox" class="mud-checkbox-input">
 
@@ -1690,8 +1499,8 @@ Remix</p>
 
 
 <div class="mud-input mud-input-text mud-input-adorned-end mud-input-underline mud-select-input">
-<input class="mud-input-slot mud-input-root mud-input-root-text mud-input-root-adorned-end mud-select-input" autocomplete="mud-disabled-b0561659-8c7f-43b7-b851-824f6d27cf6c" type="text" inputmode="text" maxlength="524288" aria-invalid="false" _bl_5315ee82-6b96-4fa8-8a56-bbd9ccfc0ba6="">
-<div class="mud-input-slot mud-input-root mud-input-root-text mud-input-root-adorned-end mud-select-input" style="display:none" tabindex="-1" _bl_d2fc9795-1a72-4f44-aff2-4e75c821de66="">
+<input class="mud-input-slot mud-input-root mud-input-root-text mud-input-root-adorned-end mud-select-input" autocomplete="mud-disabled-9a3d2b5c-a520-4c95-81d3-57e7e8dfd178" type="text" inputmode="text" maxlength="524288" aria-invalid="false" _bl_6fd55650-5df6-478d-915f-68b719380cb5="">
+<div class="mud-input-slot mud-input-root mud-input-root-text mud-input-root-adorned-end mud-select-input" style="display:none" tabindex="-1" _bl_2fb3ef8d-c825-4146-96bc-76efddf81ffe="">
 </div>
 
 
@@ -1710,11 +1519,11 @@ Remix</p>
 </div>
 
 
-<div id="popover-6ca66bee-5622-4638-aae3-5d2faf064a82" class="mud-popover-cascading-value">
+<div id="popover-f0a62e76-0ab3-401a-9505-b5afec96779b" class="mud-popover-cascading-value">
 </div>
 
 
-<label class="mud-input-label mud-input-label-animated mud-input-label-text mud-input-label-inputcontrol" for="mudinput-609df8d2-03b7-4173-9d29-362fe2b1524c">
+<label class="mud-input-label mud-input-label-animated mud-input-label-text mud-input-label-inputcontrol" for="mudinput-d3d1c0fa-67bc-47e4-a746-af24a2a0d017">
 Song Name</label>
 </div>
 </div>
@@ -1736,7 +1545,7 @@ Song Name</label>
 
 
 
-<button type="button" class="mud-button-root mud-button mud-button-outlined mud-button-outlined-primary mud-button-outlined-size-medium mud-ripple" _bl_4ebd007b-035a-47c9-99cb-c01812f7638a="">
+<button type="button" class="mud-button-root mud-button mud-button-outlined mud-button-outlined-primary mud-button-outlined-size-medium mud-ripple" _bl_d93d85b8-8d1c-47ea-abae-0586ff8ffd29="">
 <span class="mud-button-label">
 Close</span>
 </button>
@@ -1783,7 +1592,7 @@ Close</span>
 
 
 
-<button type="button" class="mud-button-root mud-icon-button mud-ripple mud-ripple-icon" _bl_ed6c7c7f-c12b-44fe-ad4d-db3516583ef7="">
+<button type="button" class="mud-button-root mud-icon-button mud-ripple mud-ripple-icon" _bl_e64e27bd-1d55-44c7-a2cb-08815e7f2e16="">
 <span class="mud-icon-button-label">
 
 
@@ -1842,7 +1651,7 @@ Very Hard</h4>
 
 
 
-<button type="button" class="mud-button-root mud-icon-button mud-ripple mud-ripple-icon" _bl_1612ae7e-58e3-42c7-a8bd-a0420e57ea39="">
+<button type="button" class="mud-button-root mud-icon-button mud-ripple mud-ripple-icon" _bl_188eea82-29c3-4f80-ab53-7874adce8230="">
 <span class="mud-icon-button-label">
 
 

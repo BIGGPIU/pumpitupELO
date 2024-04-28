@@ -56,7 +56,7 @@ def getTL(DIFF,MODE):
         htmlsource = driver.page_source
         htmlsource = htmlsource.replace(">",">\n")
         htmlsource = htmlsource.replace("<!--!-->","\n")
-        f = open("tierlistinfo.txt","w")
+        f = open("tierlistHTML.txt","w")
         hold = htmlsource.replace("\U0001f5d9","")
         hold2 = Find(hold)
         f.write(f"{hold} \n \n {hold2}")
@@ -70,7 +70,7 @@ def getTL(DIFF,MODE):
                     x+=1
             except:
                 break
-        f = open("tierlistinfo.txt","r")
+        f = open("tierlistHTML.txt","r")
         #print (piulinks)
         while True:
             y+=1
