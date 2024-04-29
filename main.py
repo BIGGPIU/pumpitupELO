@@ -3,7 +3,8 @@ import os
 from yandev import skimjson
 from gettierlist import getTL
 from time import sleep
-from makelocaltierlist import things
+#from makelocaltierlist import things #you can comment this out if you dont want to remake your tierlist snapshot.
+from getinfofromlocal import DIFF
 modes = ["Single","Double"]
 KEY = "710a11f3-2ec6-48eb-9d51-28116672d435"
 plates = ["Ultimate Game","Perfect game","Fair Game"]#I'm bored I'll do the rest later.
@@ -24,12 +25,29 @@ def main():
     #print (response.json())
     writetxt(response.json())
     hold = readtext()
-    hold2 = splt(hold)
-    
+    colle = []
+    while True:
+        try:
+            hold2 = splt(hold)
+            colle.append(colle)
+            print (colle)
+        except:
+            break
+            
+    print (hold2)
     i = 0
+
     while i != len(hold2):
-        print (hold2[i])
+        #print (hold2[i])
         i += 1
+
+            
+def goawayihateyou(test_str):
+    x=3
+    split = ","
+    temp = test_str.split(split)
+    res = split.join(temp[:x])
+    return res
 
 
 def writetxt(string):
@@ -49,10 +67,12 @@ def readtext():
     f.close
     return string
 
-def splt(string):
-    hold = string.split(",")
-    print (hold)
-    return hold 
+def splt(test_str):
+    x=12
+    split = ","
+    temp = test_str.split(split)
+    res = split.join(temp[:x])
+    return res 
 
 
 
@@ -60,4 +80,7 @@ def splt(string):
 
 if __name__ == "__main__":
     main()
-    things()
+    try:
+        things()
+    except:
+        pass
