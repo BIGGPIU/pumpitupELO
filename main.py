@@ -31,12 +31,14 @@ def main():
 
     colle = hold.split(".png")
     #print (colle[0])
+    global sett
     i = 0
     x=15
-    while i != len(colle):
-
-        i += 1
-
+    listofdiff = ["BLANK",]
+    sett = 0
+    while True:
+        hold2 = 
+        pass
             
 def goawayihateyou(test_str):
     x=3
