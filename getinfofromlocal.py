@@ -5,7 +5,7 @@ class DIFF:
     def __init__(self,x):
         while True:
             hold = f.readline()
-            if get(hold) == x:
+            if get(hold) == str(x):
                 self.OL = (hold)
                 self.VH = f.readline()
                 self.H = f.readline()

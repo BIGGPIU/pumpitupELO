@@ -1,5 +1,6 @@
 import requests
 import os
+import re
 from yandev import skimjson
 from gettierlist import getTL
 from time import sleep
@@ -23,22 +24,17 @@ def main():
     'Authorization':'Basic VEhFUkVJU0FCT01CU1RSQVBQRURUT01ZQ0hFU1Q6NzEwYTExZjMtMmVjNi00OGViLTlkNTEtMjgxMTY2NzJkNDM1'
 })
     #print (response.json())
-    writetxt(response.json())
+    #writetxt(response.json())
     hold = readtext()
+    hold = hold.replace(".jpg",".png")
     colle = []
-    while True:
-        try:
-            hold2 = splt(hold)
-            colle.append(colle)
-            print (colle)
-        except:
-            break
-            
-    print (hold2)
-    i = 0
 
-    while i != len(hold2):
-        #print (hold2[i])
+    colle = hold.split(".png")
+    #print (colle[0])
+    i = 0
+    x=15
+    while i != len(colle):
+
         i += 1
 
             
