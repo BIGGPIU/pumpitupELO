@@ -27,19 +27,52 @@ def main():
     #writetxt(response.json())
     hold = readtext()
     hold = hold.replace(".jpg",".png")
-    colle = []
 
     colle = hold.split(".png")
     #print (colle[0])
     global sett
     i = 0
-    x=15
+    x=0 #im going to commit this to work on at home but because you're a forgetful idiot what this is going to do is pull from the list in class DIFF. every time you finish a loop this should go up by 6 (or 7-1) every time you're done with a loop
     listofdiff = ["BLANK",]
     sett = 0
-    while True:
-        hold2 = 
-        pass
-            
+    while x != 27:
+        if i != len(colle):
+            haii = len(colle)
+            hold2 = colle[i]
+            temp = re.sub(r'^.*?/songs/', '', hold2)
+            temp = temp.replace ("&quot","")
+            hold3 = DIFF(x)
+        y = x-14
+        if i == len(colle):
+            i = 0
+            x += 1
+        try:
+            if temp in hold3.OL:
+                listofdiff.insert(1*y,temp)
+                print (listofdiff)
+            if temp in hold3.VH:
+                listofdiff.insert(2*y,temp)
+                print (listofdiff)
+            if temp in hold3.H:
+                listofdiff.insert(3*y,temp)
+                print (listofdiff)
+            if temp in hold3.M:
+                listofdiff.insert(4*y,temp)
+                print (listofdiff)
+            if temp in hold3.E:
+                listofdiff.insert(5*y,temp)
+                print (listofdiff)
+            if temp in hold3.NR:
+                listofdiff.insert(6*y,temp)
+                print (listofdiff)
+            i+=1
+        except:
+            i+=1
+
+
+
+
+
 def goawayihateyou(test_str):
     x=3
     split = ","
