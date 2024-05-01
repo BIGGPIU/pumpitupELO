@@ -4,6 +4,7 @@ import re
 from yandev import skimjson
 from gettierlist import getTL
 from time import sleep
+from yandev2 import yandev
 #from makelocaltierlist import things #you can comment this out if you dont want to remake your tierlist snapshot.
 from getinfofromlocal import DIFF
 modes = ["Single","Double"]
@@ -30,44 +31,16 @@ def main():
 
     colle = hold.split(".png")
     #print (colle[0])
-    global sett
+    
     i = 0
     x=0 #im going to commit this to work on at home but because you're a forgetful idiot what this is going to do is pull from the list in class DIFF. every time you finish a loop this should go up by 6 (or 7-1) every time you're done with a loop
     listofdiff = ["BLANK",]
     sett = 0
     while x != 27:
-        if i != len(colle):
-            haii = len(colle)
-            hold2 = colle[i]
-            temp = re.sub(r'^.*?/songs/', '', hold2)
-            temp = temp.replace ("&quot","")
-            hold3 = DIFF(x)
-        y = x-14
-        if i == len(colle):
-            i = 0
-            x += 1
-        try:
-            if temp in hold3.OL:
-                listofdiff.insert(1*y,temp)
-                print (listofdiff)
-            if temp in hold3.VH:
-                listofdiff.insert(2*y,temp)
-                print (listofdiff)
-            if temp in hold3.H:
-                listofdiff.insert(3*y,temp)
-                print (listofdiff)
-            if temp in hold3.M:
-                listofdiff.insert(4*y,temp)
-                print (listofdiff)
-            if temp in hold3.E:
-                listofdiff.insert(5*y,temp)
-                print (listofdiff)
-            if temp in hold3.NR:
-                listofdiff.insert(6*y,temp)
-                print (listofdiff)
-            i+=1
-        except:
-            i+=1
+        pass
+
+#actually when I think about it I think I should just put all the difficulties in different files. I think it would make it easier to do all ts :sob:
+        
 
 
 
