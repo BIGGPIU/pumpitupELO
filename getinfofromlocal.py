@@ -34,9 +34,13 @@ while True:
 
 try:
     while True:
-        file.append(f.readline)
+        hold = f.readline
+        file.append(hold)
+        if hold == "":
+            break
 except:
     pass
+
 class DIFF:
     def __init__(self,diff):
         self.OL = file[diff] # if diff == 1 it will return 1
