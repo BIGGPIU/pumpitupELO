@@ -2,5 +2,6 @@
 # Unfortunately though I got burned out mid way through so I'm stopping development for now. You can add to it if you feel like it. Follow the comments if you want to remake the tier list snapshot
 
 # known problems
-The program doesnt work lmao
-tier list snapshot not returning teh right rating for everything. You could probably fix this yourself if it really really bothered you 
+* The program doesnt work lmao
+
+* tier list snapshot not returning the right rating for everything. You could probably fix this yourself if it really really bothered you 
