@@ -35,7 +35,7 @@ def glicko(elo):
     player.update_player([elo],[1],[1])
     hold = player.getRating()
     f = open("ELO.txt","w")
-    f.write(f"{hold[:6]}")
+    f.write(f"{hold}")
     elo = player.getRating()
     return elo
 
