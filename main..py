@@ -9,7 +9,6 @@ player.setRating(1500)
 #hey me remember to add a way to send what your API key is 
 def main():
     ratinginfo = allinfo()
-    print (2+2)
     i=0
     f = open("ELO.txt","w")
     try:
@@ -17,14 +16,10 @@ def main():
             temp = (ratinginfo[i])
             hold = int(temp["level"])
             ELO = baseelo[hold]
-            print(ELO)
             i+=1
             if temp["standing"] != "Easy":
                 adjusted = ELO-50
                 hold2 = glicko(ELO)
-                print (hold2)
-                
-                print (temp)
             
             if temp["standing"] == "Medium":
                 adjusted = ELO-0
@@ -32,6 +27,7 @@ def main():
     except:
         pass
     f.write(f"{hold2}")
+    print (hold2)
     f.close()
     return
 

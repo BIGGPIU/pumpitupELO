@@ -46,7 +46,7 @@ def scoreposition(id,type,level):
             rating = str(request[i]["category"])
             if identify == id:
                 standing.append(rating)
-                print (rating)
+                #print (rating)
             i+=1
     except:
         pass
@@ -74,7 +74,7 @@ def allinfo():
                 "standing":results
             }
             allresult.append(infodict)
-            print (infodict)
+            #print (infodict)
             i+=1
     except:
         pass
