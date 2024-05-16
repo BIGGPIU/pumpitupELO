@@ -19,11 +19,28 @@ def main():
             i+=1
             if temp["standing"] != "Easy":
                 adjusted = ELO-50
-                hold2 = glicko(ELO)
+                hold2 = glicko(adjusted)
             
             if temp["standing"] == "Medium":
                 adjusted = ELO-0
-                glicko(ELO)
+                hold2 = glicko(adjusted)
+            
+            if temp["standing"] == "Overrated":
+                adjusted = ELO-100
+                hold2 = glicko(adjusted)
+            
+            if temp["standing"] == "Hard":
+                adjusted = ELO+50
+                hold2 = glicko(adjusted)
+
+            if temp["standing"] == "VeryHard":
+                adjusted = ELO-100
+                hold2 = glicko(adjusted)
+
+            if temp["standing"] == "Unrecorded":
+                adjusted = ELO-200
+                hold2 = glicko(adjusted)
+                
     except:
         pass
     f.write(f"{hold2}")

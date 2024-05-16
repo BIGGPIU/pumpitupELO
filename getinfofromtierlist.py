@@ -4,8 +4,9 @@ def getuserscores():
     f = open("settings.txt","r")
     resultnum = f.readline()
     resultnum = resultnum.replace("RESULTCOUNT=","")
+    resultnum = resultnum.replace("\n","")
     authorization = f.readline()
-    authorization = authorization.replace("API KEY=","")
+    authorization = authorization.replace("AUTHORIZATION HEADER=","")
     authorization = authorization.replace("\n","")
 
     response = requests.get(f"https://piuscores.arroweclip.se/api/phoenixScores?Page=1&Count={resultnum}", headers={

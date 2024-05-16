@@ -1,3 +1,4 @@
 RESULTCOUNT=50
-API KEY=
+AUTHORIZATION HEADER=
 I recommend you put 50 to keep load times from getting too long, but there's no limit to how long you can make it 
+Your authorization header is right under your API key, dont use "Copy api key" or else this wont work.
