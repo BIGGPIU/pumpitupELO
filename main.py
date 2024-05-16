@@ -34,7 +34,7 @@ def main():
                 hold2 = glicko(adjusted)
 
             if temp["standing"] == "VeryHard":
-                adjusted = ELO-100
+                adjusted = ELO+100
                 hold2 = glicko(adjusted)
 
             if temp["standing"] == "Unrecorded":
