@@ -6,6 +6,7 @@ def getuserscores():
     resultnum = resultnum.replace("RESULTCOUNT=","")
     authorization = f.readline()
     authorization = authorization.replace("API KEY=","")
+    authorization = authorization.replace("\n","")
 
     response = requests.get(f"https://piuscores.arroweclip.se/api/phoenixScores?Page=1&Count={resultnum}", headers={
         'accept':'*/*',

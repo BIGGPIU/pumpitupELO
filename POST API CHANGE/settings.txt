@@ -1,3 +1,0 @@
-RESULTCOUNT=50
-API KEY=
-I recommend you put 50 to keep load times from getting too long, but theres no limit to how long you can make it 
