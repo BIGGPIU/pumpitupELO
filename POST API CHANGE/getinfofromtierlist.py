@@ -1,9 +1,15 @@
 import requests
 
 def getuserscores():
-    response = requests.get("https://piuscores.arroweclip.se/api/phoenixScores?Page=1&Count=50", headers={
+    f = open("settings.txt","r")
+    resultnum = f.readline()
+    resultnum = resultnum.replace("RESULTCOUNT=","")
+    authorization = f.readline()
+    authorization = authorization.replace("API KEY=","")
+
+    response = requests.get(f"https://piuscores.arroweclip.se/api/phoenixScores?Page=1&Count={resultnum}", headers={
         'accept':'*/*',
-        'Authorization':'Basic VEhFUkVJU0FCT01CU1RSQVBQRURUT01ZQ0hFU1Q6NzEwYTExZjMtMmVjNi00OGViLTlkNTEtMjgxMTY2NzJkNDM1'
+        'Authorization':f'{authorization}'
     })
     request = response.json()
     i=0

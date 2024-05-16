@@ -11,6 +11,7 @@ def main():
     ratinginfo = allinfo()
     print (2+2)
     i=0
+    f = open("ELO.txt","w")
     try:
         while True:
             temp = (ratinginfo[i])
@@ -20,7 +21,9 @@ def main():
             i+=1
             if temp["standing"] != "Easy":
                 adjusted = ELO-50
-                print (glicko(ELO))
+                hold2 = glicko(ELO)
+                print (hold2)
+                
                 print (temp)
             
             if temp["standing"] == "Medium":
@@ -28,14 +31,14 @@ def main():
                 glicko(ELO)
     except:
         pass
+    f.write(f"{hold2}")
+    f.close()
     return
 
 #just make the rd low
 def glicko(elo):
     player.update_player([elo],[1],[1])
     hold = player.getRating()
-    f = open("ELO.txt","w")
-    f.write(f"{hold}")
     elo = player.getRating()
     return elo
 
