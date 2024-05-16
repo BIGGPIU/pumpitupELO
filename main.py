@@ -17,7 +17,7 @@ def main():
             hold = int(temp["level"])
             ELO = baseelo[hold]
             i+=1
-            if temp["standing"] != "Easy":
+            if temp["standing"] == "Easy":
                 adjusted = ELO-50
                 hold2 = glicko(adjusted)
             
